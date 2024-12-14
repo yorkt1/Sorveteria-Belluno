@@ -5,12 +5,11 @@ import Inicial from "../../Components/Inicial/Inicial.jsx";
 import NavBar from "../../Components/NavBar/NavBar.jsx";
 
 
-const Home = () =>{
+const Home = () => {
   return (
     <div>
-    
-<NavBar/>
 
+      <NavBar />
       <Inicial />
       <Menu />
     </div>
