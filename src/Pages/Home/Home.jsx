@@ -1,21 +1,16 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
 import Menu from "../../Components/Menu/Menu.jsx";
 import Inicial from "../../Components/Inicial/Inicial.jsx";
+import NavBar from "../../Components/NavBar/NavBar.jsx";
 
 
 const Home = () =>{
   return (
     <div>
-      <h1>Página Inicial</h1>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/sobre">Sobre</Link>
-          </li>
-        
-        </ul>
-      </nav>
+    
+<NavBar/>
+
       <Inicial />
       <Menu />
     </div>

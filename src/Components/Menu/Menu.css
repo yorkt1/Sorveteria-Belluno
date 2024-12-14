@@ -7,7 +7,7 @@
   
   .div1,
   .div3 {
-    background-color: lightblue;
+    
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -26,8 +26,8 @@
   
   .glass {
     position: relative;
-    background: rgba(255, 255, 255, 0.1); /* Fundo transparente para simular vidro */
-    backdrop-filter: blur(10px); /* Efeito de desfoque de vidro */
+  
+   
     width: 70%; /* Ajuste o tamanho conforme necessário */
     height: 70%; /* Ajuste o tamanho conforme necessário */
     border-radius: 10px;
@@ -67,8 +67,9 @@
   button {
     font-size: 1.2em;
     padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
+    background-color: whi;
+    color: grey;
+    border:  solid 1px ;
     border: none;
     border-radius: 5px;
     cursor: pointer;

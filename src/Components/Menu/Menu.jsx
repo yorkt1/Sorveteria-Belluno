@@ -27,7 +27,7 @@ function Menu (){
 return(
     <div className="wrapper">
       <div className="div1">
-        <h1>Div 1</h1>
+        <h1></h1>
       </div>
       <div className="div2">
            
@@ -43,7 +43,7 @@ return(
         />
       </div>
       <div className="div3">
-        <h1>Div 3</h1>
+        <h1></h1>
       </div>
     </div>
 )
