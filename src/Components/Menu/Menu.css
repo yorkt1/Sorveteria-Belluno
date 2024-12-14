@@ -1,0 +1,81 @@
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 300vh; /* Altura maior para permitir o scroll */
+  }
+  
+  .div1,
+  .div3 {
+    background-color: lightblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+  }
+  
+  .div2 {
+    position: relative;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .glass {
+    position: relative;
+    background: rgba(255, 255, 255, 0.1); /* Fundo transparente para simular vidro */
+    backdrop-filter: blur(10px); /* Efeito de desfoque de vidro */
+    width: 70%; /* Ajuste o tamanho conforme necessário */
+    height: 70%; /* Ajuste o tamanho conforme necessário */
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    z-index: 1; /* Garantir que o conteúdo do vidro fique acima da imagem */
+  }
+  
+  .imagem {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Coloca a imagem atrás do conteúdo */
+  }
+  
+  /* Estilo para os textos */
+  span {
+    font-size: 2em;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 3em;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

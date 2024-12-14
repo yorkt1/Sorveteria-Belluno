@@ -1,5 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Menu from "../../Components/Menu/Menu.jsx";
+import Inicial from "../../Components/Inicial/Inicial.jsx";
+
 
 const Home = () =>{
   return (
@@ -10,11 +13,11 @@ const Home = () =>{
           <li>
             <Link to="/sobre">Sobre</Link>
           </li>
-          <li>
-            <Link to="/usuario">Usuario</Link>
-          </li>
+        
         </ul>
       </nav>
+      <Inicial />
+      <Menu />
     </div>
   );
 }

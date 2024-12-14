@@ -1,0 +1,40 @@
+/* Seu código CSS do ParallaxSVG vai aqui */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 1vw;
+  }
+  
+  body {
+    position: relative;
+    background-color: #F2EEDD;
+    background-image: linear-gradient(to bottom, #7DE2FC 0%, #ffecd2 100%);
+  
+  }
+  
+  /* Restante do CSS */
+  .scroll {
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    margin-left: -7rem;
+    width: 14rem;
+    font-family: Futura, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: #405D86;
+  }
+  
+  .scroll svg {
+    margin: 0 2rem;
+  }
+  
+  /* Outras regras do seu CSS */
+  
